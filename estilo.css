@@ -18,14 +18,16 @@ body{
 }
 p{
     color: brown;
-    font: icon;
+    font: icon bold;
     padding: 500px;
+    text-align: center;
 }
 h1{
     color: grey;
     font-size: 5em;
+    text-align: center;
     text-transform: uppercase;
-    font: arial black ;
+    font: bold black ;
     position: absolute;
     left: 50%;
     top: 50%;
