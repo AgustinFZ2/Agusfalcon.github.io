@@ -4,7 +4,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    font-family: none;
+    font-family: arial;
     caret-color: transparent;
     scroll-behavior: smooth;
 }
@@ -16,4 +16,20 @@ body{
     background: linear-gradient(rgba(0, 0, 255, 0.267), rgba(255, 0, 0, 0.185));
 
 }
+p{
+    color: brown;
+    font: icon;
+    padding: 500px;
+}
+h1{
+    color: grey;
+    font-size: 5em;
+    text-transform: uppercase;
+    font: arial black ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%); 
+}
+
 
