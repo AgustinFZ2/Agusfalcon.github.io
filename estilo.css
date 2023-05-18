@@ -1,4 +1,4 @@
-{
+/*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -33,4 +33,119 @@ h1{
     margin: auto;
 
 }
+*/
 
+*{
+margin: 0;
+padding: 0;
+border 0;
+font-size: 100%;
+vertical-align: baseline;
+
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.head{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 63px;
+background: #171717;
+position: fixed;
+width: 100%;
+z-index: 100%;
+
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+background: #3f3f3f;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.header{
+    height: 60vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+
+}    
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #3a2104e3;
+    color: #fff;
+    text-decoration: none;
+    background: #dddddce7;
+    
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
