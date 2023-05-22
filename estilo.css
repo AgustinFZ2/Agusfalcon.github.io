@@ -36,7 +36,9 @@ font-weight: lighter;
             font-size: 20px;
             background-image: url('https://img.freepik.com/fotos-premium/casa-campo-lavanda-via-lactea-al-fondo_321315-2531.jpg?w=1060'); 
           background-repeat: no-repeat;
-          background-attachment: fixed;
+          background-attachment: fixed;width: 300px;
+          height: 300px;
+          display: flex;
         }
         
       .navbar{
@@ -54,6 +56,13 @@ width: 800px;
 border: 8px solid #171717;
 padding: 8px;
 margin: 8px
+
         }
 
+        text{
+text-align: center;
+text-decoration: dashed;
+border: #aaa
+padding 21px 18px;
+        }
         
