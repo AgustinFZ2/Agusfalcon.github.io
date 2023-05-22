@@ -1,0 +1,5 @@
+let imagenes = [
+
+    ubicacion.jpg,
+    
+];

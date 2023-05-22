@@ -1,151 +1,59 @@
-/*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: arial;
-    caret-color: transparent;
-    scroll-behavior: smooth;
-}
-body{
-    background-color: hsl(240, 29%, 17%);
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/628/445/desktop-wallpaper-woodworking-woodturning.jpg);
-    background-repeat: no-repeat;
-    color: rgba(6, 20, 78, 0.089);
-    background: linear-gradient(rgba(0, 0, 255, 0.267), rgba(255, 0, 0, 0.185));
 
-}
-p{
-    color: brown;
-    font: icon bold;
-    padding: 500px;
-   
-}
-h1{
-    color: grey;
-    font-size: 5em;
-    position: absolute;S
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    left: 0%;
-    margin: auto;
-
-}
-*/
-
-*{
-margin: 0;
-padding: 0;
-border 0;
-font-size: 100%;
-vertical-align: baseline;
-
-}
-
-body{
-    text-align: center;
-    font-family: sans-serif;
-}
-
-.header{
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.head{
-display: flex;
-align-items: center;
-justify-content: space-between;
-height: 63px;
-background: #171717;
-position: fixed;
-width: 100%;
-z-index: 100%;
-
-}
-
-.navbar{
-    display: flex;
-    margin-right: 10px;
-
-}
-
-.logo{
-    margin-left: 30px;
-}
-
-.logo a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.navbar a {
-    display: block;
-    padding: 23px 20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.navbar a:hover {
-background: #3f3f3f;
-
-}
-
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    }
-
-.header{
-    height: 60vh !important;
-    background: url(img/header.jpg) no-repeat center;
-    background-size: cover;
-
-}    
-
-.title{
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
-
-}
 
 p{
-    margin-bottom: 40px;
-    font-size: 18px;
+    color-scheme: #aaa;
+    width : 300px;}
 
+h1 {  
+text-align: center;
+border: 1px solid #171717;
+margin-top: 40px;
+padding: 5px;
+font-weight: bold;
 }
 
-.btn{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #3a2104e3;
-    color: #fff;
-    text-decoration: none;
-    background: #dddddce7;
-    
+h2 {
+text-align: center;
+border:2px ridge #855116;
+margin: auto;
+padding: 5px;
+font-weight: lighter;
 }
 
-.btn:hover{
-    background: none;
-}
+    .navbar {
+        display: block;
+        padding: 23px 20px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;}
 
-.btn-home{
-    display: flex;
-}
+        .logo{
+            margin-left: 30px;
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 20px;
+            background-image: url('https://img.freepik.com/fotos-premium/casa-campo-lavanda-via-lactea-al-fondo_321315-2531.jpg?w=1060'); 
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+        }
+        
+      .navbar{
+            display: block;
+            padding: 23px 20px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            background: #3f3f3f;
+        }
 
-.btn-home a {
-    margin: 0 10px;
-}
+        div {
+width: 800px;
+border: 8px solid #171717;
+padding: 8px;
+margin: 8px
+        }
+
+        
