@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muebles</title>
+    <link rel="stylesheet" href="estilo.css">
     <style>
         body {
           background-image: url('https://2.bp.blogspot.com/_MVdtJCXKmSg/TPadvpO3i8I/AAAAAAAAFB0/7eo03vJELgQ/s1600/Muebles+22.jpg'); 
@@ -12,12 +12,53 @@
           background-attachment: fixed;
           background-size: 100%;
         }
+        
 
         </style>
 </head>
 <body>
+    <h1 class="titulo">Sobre Nosotros</h1>
     <footer><a href="index2.html"> <--- Volver atras </a>
     </footer>
    
 </body>
 </html>
+
+<!---
+carrousell
+<img id="imag" src="centro10.jpg" alt="centro">
+
+    <button id="banterior" onclick="anterior()">Anterior</button>
+    <button id="bsiguiente" onclick="siguiente()">Siguiente</button>
+
+    <script>
+        let array = ["centro10.jpg", "centro40.jpg", "centro50.jpg"];
+         let sig = document.getElementById(bsiguiente);
+         let ant = document.getElementById(banterior);
+        let im = document.getElementById(imag);
+        let cont = 0;
+
+        function anterior() {
+            if (cont == 0) {
+                cont = 2;
+
+            } else {
+                cont--;
+            }
+            imag.src = array[cont];
+
+        }
+
+        function siguiente() {
+
+
+            if (cont == 2) {
+                cont = 0;
+            } else {
+                cont++;
+            }
+            imag.src = array[cont];
+
+        }
+    </script>
+!---->

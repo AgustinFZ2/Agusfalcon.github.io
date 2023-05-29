@@ -1,70 +1,43 @@
-
-
-p{
-    text-align: center;
-    animation: infinite;
-    color-scheme: #aaa;
-    width : 300px;}
-
-h1 {  
-text-align: center;
-border: 1px solid #171717;
-margin-top: 40px;
-padding: 5px;
-font-weight: bold;
+* {
+text-decoration: none;
+list-style: none;
 }
 
-h2 {
-text-align: center;
-border:2px ridge #855116;
-margin: auto;
-padding: 5px;
-font-weight: lighter;
+h1 {
+  margin: 30px 10px 20px;
+  padding: 10px 10px 4px 4px;
+  text-align: center;
+    color: #FFF;
+    background-color: none;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+
 }
 
-    .navbar {
-        display: block;
-        padding: 23px 20px;
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 20px;}
-
-        .logo{
-            margin-left: 30px;
-            text-decoration: none;
-            color: #fff;
-            text-transform: uppercase;
-            font-size: 20px;
-            background-image: url('https://img.freepik.com/fotos-premium/casa-campo-lavanda-via-lactea-al-fondo_321315-2531.jpg?w=1060'); 
-          background-repeat: no-repeat;
-          background-attachment: fixed;width: 300px;
-          height: 300px;
-          display: flex;
-        }
-        
-      .navbar{
-            display: block;
-            padding: 23px 20px;
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 20px;
-            background: #3f3f3f;
-        }
-
-        div {
-width: 800px;
-border: 8px solid #171717;
-padding: 8px;
-margin: 8px
-
-        }
-
-        text{
+h2{
+font-size: 70px;
 text-align: center;
-text-decoration: dashed;
-border: #aaa
-padding 21px 18px;
-        }
-        
+color: #e0dfdc;
+background-color: none;
+letter-spacing: .1em;
+text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+nav {
+  
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  text-align: end;
+  letter-spacing: 4px;
+  color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 19px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(164, 78, 28) 0%, rgb(203, 136, 35) 50%, rgb(117, 64, 20) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+}
+
+  .myButton:active:hover {
+  background: #a1642a; }
+  .myButton:active {
+  background: #041d2e; }
+  
+ 
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
