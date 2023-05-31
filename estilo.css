@@ -41,3 +41,25 @@ h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.columna1 {
+  background-color: #2e2e2e;
+  padding: 40px;
+  margin: 0px 4px;
+}
+
+.columna2 {
+  background-color: beige;
+  padding: 40px;
+  margin: 0px 4px;
+}
+
+.columna3{
+  background-color: rgb(32, 139, 182);
+  padding: 40px;
+  margin: 0px 4px;
+}
