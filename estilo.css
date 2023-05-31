@@ -23,7 +23,7 @@ text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0
 }
 
 nav {
-  
+  font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: space-between;
   text-align: end;
@@ -43,23 +43,44 @@ h1{
 
 .contenedor {
   display: flex;
-  justify-content: center;
+  justify-content: auto;
 }
 
 .columna1 {
+  text-align: center;
   background-color: #2e2e2e;
   padding: 40px;
   margin: 0px 4px;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  border-top-left-radius: 4px;
+  color: #FFF;
+background-color: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
 }
 
 .columna2 {
+  text-align: center;
   background-color: beige;
   padding: 40px;
   margin: 0px 4px;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  border-bottom-left-radius: 4px;
+  color: #FFF;
+background-color: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
 }
 
-.columna3{
-  background-color: rgb(32, 139, 182);
-  padding: 40px;
-  margin: 0px 4px;
+p{
+  background-color: none;
+ 
+  font-size: 10px;
 }
+
+
+
