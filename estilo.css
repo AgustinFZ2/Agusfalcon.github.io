@@ -47,6 +47,7 @@ h1{
 }
 
 .columna1 {
+  border: 5px double #787c7e8c;
   text-align: center;
   background-color: #2e2e2e;
   padding: 40px;
@@ -54,7 +55,7 @@ h1{
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px;
+  height: 1000px;
   border-top-left-radius: 4px;
   color: #FFF;
 background-color: #8b4707;
@@ -62,26 +63,66 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 }
 
 .columna2 {
+  border: 5px double #787c7e8c;
   text-align: center;
   background-color: beige;
   padding: 40px;
-  margin: 0px 4px;
+  margin: 0px 0px;
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px;
+  height: 1000px; /*colocando el 100% permite agrandar lo maximo posible la columna*/
   border-bottom-left-radius: 4px;
   color: #FFF;
 background-color: #232323;
 text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 p{
   background-color: none;
- 
-  font-size: 10px;
+  font-size: 20px;
+text-shadow: 0 0 5px #FFF, 0 0 10px blanchedalmond;
+
 }
 
-
+/*formulario*/
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  margin: 10px;
+  border: 5px solid rgba(179, 151, 28, 0.582);
+  border-radius: 15px;
+ }
+ textarea {
+  border: 1px solid black;
+  border-radius: 0px 15px 0px 15px;
+ }
+ #errores {
+  border: 1px solid red;
+  padding: 5px;
+  display: none;
+ }
+ #errores p {
+  color: red;
+ }
+ 
+ .error {
+  border: 1px solid red;
+ }
 

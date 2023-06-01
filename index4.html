@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Puertas</title>
     <style>
         P{
@@ -26,13 +27,25 @@
     <footer>
         <div>
             <nav>
-                <ul>
+           
                  
-                   <p>< <li><a href="index2.html"> <------Volver al Menu</a></li></p>
-                </ul>
+                   <p>< <li><a href="index.html"> <------Volver al Menu</a></li></p>
+              
             </nav>
          </div>
     </footer>
-   
+
+    <h1>Contactenos </h1>
+    <form onsubmit="return validar()" id="f_contacto">
+      <label for="f_nombre">Nombre</label>
+      <input id="f_nombre" autofocus />
+      <label for="f_mensaje">Mensaje</label>
+      <textarea id="f_mensaje" rows="3"></textarea>
+      <label for="f_email">Email</label>
+      <input id="f_email" />
+      <button type="submit">Enviar</button>
+      <div id="errores">
+      </div>
+    </form>
 </body>
 </html>
