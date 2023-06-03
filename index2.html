@@ -42,38 +42,54 @@
               </ol>
           
               
-              <div class="slideshow-container">
-
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                  <div class="numbertext">1 / 3</div>
-                  <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhttp2.mlstatic.com%2Fpuertas-de-madera-exterior-e-interior-D_NQ_NP_359605-MPE25052710280_092016-F.jpg&f=1&nofb=1&ipt=c383f031e6afb33f32aec09f49cfe85233bb8e2da25e949b9658e11beda7593c&ipo=images style="width:100%">
-                  <div class="text">Caption Text</div>
+              <div id="myCarouselCustom" clase="deslizamiento del carrusel" paseo de datos="carrusel">
+                < !-- Indicadores - >
+                <ol clase="indicadores de carrusel">
+                    <li objetivo de datos="#myCarouselCustom" deslizamiento de datos a="0" clase="activo"> </li>
+                    <li objetivo de datos="#myCarouselCustom" deslizamiento de datos a="1"> </li>
+                    <li objetivo de datos="#myCarouselCustom" deslizamiento de datos a="2"> </li>
+                </ol>
+            
+                < !-- Envoltura para diapositivas - >
+                <div clase="carrusel-inner">
+                    <div clase="elemento activo">
+                        <img src="imágenes / imagen-1.jpg" alt="">
+                        <div clase="subtítulo del carrusel">
+                            <h3> Primera diapositiva </h3>
+                            <p> Esta es la primera diapositiva de imagen </p>
+                        </div>
+                    </div>
+              
+                    <div clase="artículo">
+                        <img src="imágenes / imagen-2.jpeg" alt="">
+                        <div clase="subtítulo del carrusel">
+                            <h3> Segunda diapositiva </h3>
+                            <p> Esta es la segunda diapositiva de imagen </p>
+                        </div>
+                    </div>
+                    
+                    <div clase="artículo">
+                        <img src="imágenes / imagen-3.jpeg" alt="">
+                        <div clase="subtítulo del carrusel">
+                            <h3> Tercera diapositiva </h3>
+                            <p> Esta es la tercera diapositiva de imagen </p>
+                        </div>
+                    </div>
                 </div>
-              
-                <div class="mySlides fade">
-                  <div class="numbertext">2 / 3</div>
-                  <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fricalmadera.com%2Fwp-content%2Fuploads%2F2019%2F01%2FPuerta-Ricalmadera-EM007.png&f=1&nofb=1&ipt=c3fc7ddf5860138ce5c11792cec39cf942c576eba932e610812268419a44b192&ipo=images style="width:100%">
-                  <div class="text">Caption Two</div>
-                </div>
-              
-                <div class="mySlides fade">
-                  <div class="numbertext">3 / 3</div>
-                  <img src=https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-ZKOQI0fVKeo%2FUpmlicb3R1I%2FAAAAAAAAA5A%2FemfzDO8x5KQ%2Fs1600%2FPuerta%2BSagunto.jpg&f=1&nofb=1&ipt=1a5a1d1db2daed5e8c9683db63422d408663619d1a3cba75a290ff6938b24808&ipo=imagesstyle="width:100%">
-                  <div class="text">Caption Three</div>
-                </div>
-              
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-              </div>
-              <br>
-              
-              <!-- The dots/circles -->
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)">siguiente</span>
-                <span class="dot" onclick="currentSlide(2)">sigui2</span>
-                <span class="dot" onclick="currentSlide(3)">sigui3</span>
+            
+                < ! - Controles - >
+                <un clase="control de carrusel izquierdo" href="#myCarousel" deslizamiento de datos="prev">
+                    <span clase="glificio glificio-chevron-izquierda"> </span>
+                    <span clase="solo sr"> Anterior </span>
+                </un>
+                <un clase="control correcto del carrusel" href="#myCarousel" deslizamiento de datos="próximo">
+                    <span clase="glificio glificio-chevron-derecha"> </span>
+                    <span clase="solo sr"> Siguiente </span>
+                </un>
+            </div>
+            < !-- Controles personalizados - >
+            <un href="javascript: void ( 0 );" id="prevBtn"> Diapositiva previa </un>
+            <un href="javascript: void ( 0 );" id="siguiente Btn"> Siguiente diapositiva </un>
               </div>
           
         
