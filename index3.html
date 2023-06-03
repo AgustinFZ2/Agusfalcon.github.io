@@ -24,39 +24,4 @@
 </body>
 </html>
 
-carrousell
-<img id="imag" src="centro10.jpg" alt="centro">
 
-    <button id="banterior" onclick="anterior()">Anterior</button>
-    <button id="bsiguiente" onclick="siguiente()">Siguiente</button>
-
-    <script>
-        let array = ["centro10.jpg", "centro40.jpg", "centro50.jpg"];
-         let sig = document.getElementById(bsiguiente);
-         let ant = document.getElementById(banterior);
-        let im = document.getElementById(imag);
-        let cont = 0;
-
-        function anterior() {
-            if (cont == 0) {
-                cont = 2;
-
-            } else {
-                cont--;
-            }
-            imag.src = array[cont];
-
-        }
-
-        function siguiente() {
-
-
-            if (cont == 2) {
-                cont = 0;
-            } else {
-                cont++;
-            }
-            imag.src = array[cont];
-
-        }
-    </script>
