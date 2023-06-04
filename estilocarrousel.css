@@ -1,6 +1,3 @@
-*{
-    align-items: center;
-}
 .carousel {
     width: 500px;
     height: 300px;
@@ -15,9 +12,8 @@
     }
 
     .carousel-item {
-     flex: 500px;
+     flex: 0 0 500px;
     height: 100%;
-
      }
 
     .carousel-item img {
@@ -25,13 +21,13 @@
      height: 100%;
      object-fit: cover;
      }
-.carousel-btn {
+    .carousel-btn {
      display: flex;
      justify-content: space-between;
      align-items: center;
      margin-top: 10px;
      }
-
+      
     .carousel-btn button {
      padding: 5px;
     }
