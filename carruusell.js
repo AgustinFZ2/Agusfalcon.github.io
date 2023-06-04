@@ -1,5 +1,5 @@
 var index = 0; 
-var locations = ["Amsterdam, The Netherlands", "Sydney, Australia", "San Francisco, California"]
+var locations = ["Puertas","ventanas", "sillas", "muebleria", "diseños especiales"]
 
 var slides = document.getElementsByClassName("slides"); 
 var nextArrow = document.getElementById("next");
