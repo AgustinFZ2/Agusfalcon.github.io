@@ -1,41 +1,4 @@
-/*
-.carousel {
-    width: 500px;
-    overflow: hidden;
-    }
-
-    .carousel-inner {
-     width: 75%;
-     height: 75%;
-     display: flex;
-    transition: transform 0.5s ease-in-out;
-    }
-
-    .carousel-item {
-     flex: 50px 70px 70px;
-    height: 100%;
-     }
-
-    .carousel-item img {
-     width: 100%;
-     height: auto;
-     }
-    .carousel-btn {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-top: 10px;
-     }
-      
-    .carousel-btn button {
-     padding: 5px;
-     justify-content: center;
-     border-radius: 5px;
-     font-size: 20px;
-     color: brown;
-    }
-  */
-  :root {
+:root {
 	--transparent-grey: rgba(0,0,0,0.5); 
 }
 
@@ -47,6 +10,10 @@ body {
 /* Width of carousel */
 #window, #slide-container {
  	width: 400px;
+    
+}
+.window{
+    align-content: center;
 }
 
 /* Height of carousel */

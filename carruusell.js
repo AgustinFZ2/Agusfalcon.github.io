@@ -1,5 +1,5 @@
 var index = 0; 
-var locations = ["Puertas","ventanas", "sillas", "muebleria", "diseños especiales"]
+var locations = ["Puertas","Puertas","Puertas","ventanas","ventanas","ventanas", "sillas/sillones", "sillas/sillones","muebles","muebles","muebles", "diseños especiales", "diseños especiales", "diseños especiales"]
 
 var slides = document.getElementsByClassName("slides"); 
 var nextArrow = document.getElementById("next");
@@ -51,29 +51,3 @@ previousArrow.onclick = function() {
 } 
 
 dotArray[0].onclick = showSlides(1); 
-
-/*
-document.addEventListener("DOMContentLoaded", function() {
-    const carousel = document.querySelector('.carousel-inner');
-    const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
-    const carouselItems = document.querySelectorAll('.carousel-item');
-    const itemWidth = carouselItems[0].clientWidth;
-    let counter = 0;
-  
-    prevBtn.addEventListener('click', () => {
-      counter--;
-      carousel.style.transform = `translateX(-${counter * itemWidth}px)`;
-    });
-  
-    nextBtn.addEventListener('click', () => {
-      counter++;
-      carousel.style.transform = `translateX(-${counter * itemWidth}px)`;
-    });
-  
-    setInterval(function() {
-      counter++;
-      carousel.style.transform = `translateX(-${counter * itemWidth}px)`;
-    }, 3000);
-  });
-  */
