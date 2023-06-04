@@ -115,7 +115,7 @@ form{
   border: 1px solid red;
  }
 
-imagen {
+.imagen-columna {
   border-radius: 4px;
   width: 50%;
 }
