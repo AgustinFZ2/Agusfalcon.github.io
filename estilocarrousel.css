@@ -12,16 +12,12 @@ body {
  	width: 400px;
     
 }
-.window{
-    align-content: center;
-}
 
 /* Height of carousel */
 #slide-container {
 	height: 200px;
 	overflow: hidden; 
 	position: relative; 
-    align-content: center;
 }
 
 .slide {
