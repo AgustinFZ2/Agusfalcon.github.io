@@ -115,3 +115,7 @@ form{
   border: 1px solid red;
  }
 
+imagen {
+  border-radius: 4px;
+  width: 50%;
+}
