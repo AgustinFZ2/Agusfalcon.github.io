@@ -15,8 +15,7 @@
     }
 
     .carousel-item {
-        width: center;
-     flex:0 500px;
+     flex: 500px;
     height: 100%;
 
      }
