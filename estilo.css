@@ -136,24 +136,3 @@ form{
   width: 50%;
   text-align: center;
 }
-
-.f_nombre{
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-background-color:darkblue;
-font-size: medium;
-}
-.f_apellido{
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-color:darkblue;
-  font-size: medium;
-  }
-  .f_email{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:darkblue;
-    font-size: medium;
-    }
-.h7{
-  font-size: larger;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: aqua;
-}
