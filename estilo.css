@@ -135,3 +135,9 @@ form{
   width: 50%;
   text-align: center;
 }
+
+.h7{
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aqua;
+}
