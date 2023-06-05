@@ -105,7 +105,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px blanchedalmond;
 
 /*formulario*/
 form{
-  background-color: #a1642a;
+  background-color: #FFF;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -137,11 +137,21 @@ form{
   text-align: center;
 }
 
-label{
+.f_nombre{
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color:darkblue;
+background-color:darkblue;
 font-size: medium;
 }
+.f_apellido{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:darkblue;
+  font-size: medium;
+  }
+  .f_email{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:darkblue;
+    font-size: medium;
+    }
 .h7{
   font-size: larger;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
