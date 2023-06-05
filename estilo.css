@@ -105,6 +105,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px blanchedalmond;
 
 /*formulario*/
 form{
+  background-color: #a1642a;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -136,6 +137,11 @@ form{
   text-align: center;
 }
 
+label{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:darkblue;
+font-size: medium;
+}
 .h7{
   font-size: larger;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
