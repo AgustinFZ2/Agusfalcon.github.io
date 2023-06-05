@@ -2,18 +2,17 @@
 	--transparent-grey: rgba(0,0,0,0.5); 
 }
 
-/* Font for text */
 body { 
 	font-family: "Helvetic Neue", Sans-serif; 
 }
 
-/* Width of carousel */
+
 #window, #slide-container {
  	width: 400px;
     
 }
 
-/* Height of carousel */
+
 #slide-container {
 	height: 200px;
 	overflow: hidden; 
@@ -29,7 +28,6 @@ body {
 	display: block; 
 }
  
-/* Style of arrows */
 .arrow {
 	color: white; 
 	font-size: 26px; 
